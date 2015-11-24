@@ -64,8 +64,8 @@ public class PDF {
 
 	        for (int i = 1; i <10; i++) {
 
-	        	//if(i == 1)
-	        		
+	        
+	        	
 	           content += PdfTextExtractor.getTextFromPage(reader, i); //读取第i页的文档内容
 	        	System.out.println(content);
 	                  }
